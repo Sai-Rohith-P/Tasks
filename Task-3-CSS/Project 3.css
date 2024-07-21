@@ -1,0 +1,163 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.Container{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background: url('treepage.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar{
+    padding: 10px;
+}
+.Logo a{
+    padding: 7px 10px;
+    color: black;
+    font-weight: bold;
+    margin:10px 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 40px;
+    float: inline-start;
+    cursor: pointer;
+    text-decoration: none;
+}
+.Logo a:hover{
+    color: rgb(239, 237, 237);
+}
+.home{
+    float: right;
+    padding: 30px;
+}
+.home a{
+    margin: 40px;
+    padding:10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px solid black;
+    border-radius: 10px ;
+    cursor: pointer;
+}
+.home a:hover{
+    /*background-color: black;*/
+    color: white;
+    border: 2px solid rgb(7, 7, 7);
+}
+.Main{
+    float: left;
+    padding: 10px;
+    margin: 120px 0px;
+}
+.Main h1{
+    padding: 5px;
+    font-size: 60px;
+}
+.Main h2{
+    padding: 5px;
+    font-size: 50px;
+}
+.Main h3{
+    padding: 4px;
+    font-size: 30px;
+}
+.Join{
+   margin-top: 19px;
+}
+.Join a{
+    font-size: 22px;
+    padding: 10px;
+    text-decoration: none;
+    border: 2px solid black;
+    color: rgb(11, 11, 11);
+    border-radius: 10px;
+}
+.Join a:hover{
+    /*background-color: rgb(235, 231, 231);*/
+    color: rgb(244, 243, 243);
+}
+.form{
+    float: right;
+    border: 2px solid black;
+    height: 400px;
+    width: 320px;
+    padding: 10px;
+    margin: 70px 120px;
+    border-radius: 20px;
+   
+}
+.form h1{
+    text-align: center;
+    margin: 22px 0px;
+    margin-bottom: 35px;
+}
+.form input{
+    width: 270px;
+    height: 20px;
+    border-radius: 11px;
+    padding: 10px;
+    margin-left: 12px;
+    margin-top: 14px;
+    background-color: rgba(42, 38, 38, 0);
+    color: white;
+}
+/*input{
+    padding: px;
+    margin-top: 8px;
+    margin-left: 12px;
+    display: inline-block;
+    cursor: pointer;
+    
+}*/
+.Log{
+    margin-top: 35px;
+}
+.Log a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px 120px;
+    margin-left: 12px;
+}
+.Log a:hover{
+    background-color: black;
+    color: white;
+}
+.check {
+padding: 3px;
+}
+.check h4{
+float: left;
+margin-top: 17px;
+margin-left: 30px;
+cursor: pointer;
+}
+.check p{
+float: right;
+margin-top: 17px;
+margin-left: 30px;
+color: rgb(27, 7, 176);
+cursor: pointer;
+}
+.For{
+    padding: 10px;
+    margin-top: 64px;
+    margin-left: 17px;
+}
+.For a{
+    margin-left: 75px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Bold', sans-serif;
+}
+
