@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impression WebSite | Shine | calm Anxiety & Stress</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <style>
+        .impression{
+            margin: 0%;
+            padding: 0%;
+        }
+        .head {
+            width: 100%;
+            height: 120px;
+            background-color: rgba(50, 48, 48, 0.969);
+            text-align: center;
+            justify-content: center;
+            /* display: flex;
+            flex-direction: column; */
+        }
+
+        .head p {
+            font-size: 20px;
+            padding-top: 10px;
+            margin-bottom: 20px;
+            color: white;
+        }
+
+        .head a {
+            text-decoration: none;
+            font-size: 18px;
+            background-color: rgb(23, 22, 22);
+            padding: 12px 60px;
+            border-radius: 40px;
+            font-weight: bold;
+            color: white;
+        }
+
+        .head a:hover {
+            background-color: rgb(91, 83, 83);
+        }
+
+        .img-fluid {
+            background-image: url("bgImg.jpg");
+            height: 800px;
+            width: 100%;
+            background-size: cover;
+            /* background-attachment: fixed; */
+            /* background-position: center; */
+            /* background-repeat:no-repeat ; */
+        }
+
+        .left {
+            width: 550px;
+            background-color: rgb(95, 92, 92);
+            opacity: 0.7;
+            border-radius: 0px 420px 530px 0px;
+            height: 800px;
+            float: left;
+        }
+
+        .container {
+            width: 450px;
+        }
+
+        .container img {
+            width: 100px;
+            margin-left: 100px;
+            margin-top: 50px;
+        }
+
+        .container h3 {
+            font-size: 50px;
+            color: rgb(255, 255, 255);
+            margin: 30px 0px 10px 30px;
+            opacity: 0.8;
+        }
+
+        .container p {
+            color: rgb(238, 238, 238);
+            font-size: 30px;
+            margin-left: 30px;
+            opacity: 0.8;
+        }
+
+        .second {
+            width: 100%;
+            height: 750px;
+            background-color: rgb(23, 22, 22);
+            color: rgba(255, 255, 255, 0.6);
+            display: flex;
+            padding-top: 60px;
+        }
+        .text {
+            margin-left: 320px;
+            width: 400px;
+        }
+        .hea{
+            margin-bottom: 40px;
+            margin-top: 20px;
+            font-size: 25px;
+        }
+        .first h3{
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+        .first p{
+            font-size: 17px;
+            width: 420px;
+        }
+
+        .first img {
+            float: left;
+            width: 70px;
+            margin-right: 30px;
+        }
+        .text1 iframe{
+            margin-left: 30px;
+            height: 640px;
+            width: 400px;
+            border-radius: 19px;
+        }
+        .mudu{
+            width: 100%;
+            height: 700px;
+            background-image: url("bg-3.jpg");
+            background-size: cover;
+            opacity: 0.8;
+            text-align: center;
+        }
+        .mudu h3{
+            padding-top: 50px;
+            font-size: 40px;
+        }
+        .cards{
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 100px;
+        }
+        .specialhover{
+            opacity: 0.9;
+        }
+        .specialhover:hover{
+            background-color: blue;
+        }
+        .bg-4 {
+            width: 100%;
+            height: 700px;
+            background-image: url("bg-4.jpg");
+            background-size: cover;
+        }
+        .lis{
+            background-color: rgb(74, 49, 43);
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            height: 940px;
+            /* z-index: -1; */
+            
+        }
+        .inner{
+            width: 70%;
+            height: 800px;
+            background-color: rgb(32, 32, 32);
+            /* padding: 30px 0px 0px 40px; */
+            margin-left: 200px;
+            border-radius: 80px;
+            /* margin-top: -130px; */
+            
+        }
+        .textc{
+        margin-left: 250px;
+        }
+        .textc h3{
+            padding: 40px;
+            font-size: 35px;
+            text-align: center;
+            width: 650px;
+            color: rgb(220, 220, 220);
+        }
+        .imagesim{
+            margin-left: 90px;
+            width:80% ;
+            height: 600px;
+            /* border: 2px solid white; */
+        }
+        .top{
+            width: 90%;
+            height: 300px;
+            /* border: 2px solid red; */
+            margin-left: 36px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .bottom{
+            width: 90%;
+            height: 300px;
+            /* border: 2px solid red; */
+            margin-left: 36px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .o h3{
+            text-align: center;
+            font-size: 20px;
+            color: rgb(230, 230, 230);
+            margin-top: 10px;
+        }
+        .o h4{
+            text-align: center;
+            font-size: 18px;
+            color: rgb(209, 209, 209);
+            opacity: 0.8;
+        }
+        .o img{
+            width: 170px;
+            
+        }
+        .smal{
+            width: 100%;
+            height: 500px;
+            background-color: rgb(16, 102, 139);
+        }
+        .smal h3{
+            text-align: center;
+            padding-top: 80px;
+            font-size: 50px;
+            color: rgb(212, 212, 212);
+        }
+        .smal p{
+            text-align: center;
+            margin-top: 30px;
+            font-size: 23px;
+            width: 600px;
+            margin-left: 450px;
+            color: rgb(212, 212, 212);
+        }
+        .sp{
+            text-align: center;
+            margin-left: 450px;
+            width: 40%;
+            margin-top: 20px;
+            height: 13px;
+        }
+        .lastbef{
+            width: 100%;
+            height: 940px;
+            background-color: rgb(74, 49, 43);
+        }
+        .ro{
+            text-align: center;
+            width: 600px;
+            margin-left: 450px;
+        }
+        .ro h3{
+            font-size: 39px;
+            color: rgb(198, 198, 198);
+            padding-top: 30px;
+        }
+        .ro h4{
+            font-size: 20px;
+            color:rgb(200, 200, 200) ;
+            margin-top: 30px;
+            margin-bottom: 40px;
+        }
+        .ro a{
+            
+            width: 60px;
+            background-color: rgb(50, 22, 22);
+            padding: 10px 50px;
+            border-radius: 20px;
+            color: rgb(189, 189, 189);
+            text-decoration: none;
+        }
+        .ro a:hover{
+            background-color: brown;
+        }
+        .lastbef img{
+            text-align: center;
+            width: 700px;
+            margin-left: 400px;
+            height: 600px;
+            margin-top: 20px;
+        }
+        .last{
+            width: 100%;
+            height: 520px;
+            background-color: rgb(27, 27, 27);
+        }
+        .last h2{
+            text-align: center;
+            padding-top: 20px;
+            color: rgb(207, 207, 207);
+            margin-bottom: 30px;
+            font-size: 50px;
+        }
+        .contact{
+            margin-top: 10px;
+            /* border: 2px solid white; */
+            height:300px ;
+            display: flex;
+            justify-content: space-around;
+            padding-top: 50px;
+        }
+        .linkedIn img{
+            width: 50px;
+            height: 50px;
+            border-radius: 20px;
+        }
+        .linkedIn h3{
+            color: rgb(196, 196, 196);
+            margin-top: 20px;
+        }
+        .insta img{
+            /* padding: 40px; */
+            width: 50px;
+            height: 50px;
+            border-radius: 20px;
+        }
+        .insta h3{
+            color: rgb(196, 196, 196);
+            margin-top: 20px;
+        }
+        footer{
+            text-align: center;
+            margin-top: 70px;
+            color: rgb(203, 203, 203);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="impression">
+    <div class="head">
+        <p>The Shine app is now a part of Headspace Health!</p>
+        <a href="#">Learn More</a>
+    </div>
+    <div class="img-fluid">
+        <div class="left">
+            <div class="container">
+                <img src="shine-logo.png" alt="logo">
+                <h3>Daily mental <br>wellness for all</h3>
+                <p>The mental wellness app for better mornings, brighter days, and the truest you.</p>
+            </div>
+        </div>
+    </div>
+    <div class="second">
+        <div class="text">
+            <p>Named Best of the Year by Apple</p>
+            <h3 class="hea">Start your mental wellness journey with Shine Premium</h3>
+            <div class="first">
+                <img src="first.png" alt="img">
+                <h3>Daily Meditations</h3>
+                <p>Listen and learn a new self-care skill every weekday with the Daily Shine</p>
+            </div>
+            <div class="first">
+                <img src="second.png" alt="img">
+                <h3>Self-Care Courses</h3>
+                <p>Go deeper on topics like stress, boundaries, and more with audio courses.</p>
+            </div>
+
+            <div class="first">
+                <img src="third.png" alt="img">
+                <h3>Personalized Support</h3>
+                <p>Get recommendations from a library of 1,000+ meditations with representation.</p>
+            </div>
+
+            <div class="first">
+                <img src="fourth.png" alt="img">
+                <h3>Virtual Community Workshops</h3>
+                <p>Join monthly virtual workshops to get.
+                </p>            
+            </div>
+
+        </div>
+        <div class="text1 ">
+                <iframe src="video.mp4" frameborder="0" ></iframe>
+            </div>
+    </div>
+
+    <div class="mudu">
+        <h3>Listen to new meditations every <br> day that are relevant to your world.
+        </h3>
+        <div class="cards">
+            <div class="card" style="width: 18rem;">
+                <img src="1.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Tiffany Walker</h5>
+                  <p class="card-text">Representation Burnout.ipsum dolor sit amet consectetur!</p>
+                  <a href="#" class="btn btn-primary specialhover">Go somewhere</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="3.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Tiffany Walker</h5>
+                  <p class="card-text">Focus On What You Can Control.ipsum dolor sit amet consectetur!</p>
+                  <a href="#" class="btn btn-primary specialhover">Go somewhere</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="2.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Jamila Reddy</h5>
+                  <p class="card-text">Conquer Your Inner Critic.ipsum dolor sit amet consectetur!</p>
+                  <a href="#" class="btn btn-primary specialhover">Go somewhere</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="4.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Mel Chanté</h5>
+                  <p class="card-text">Honor Your Whole Self. ipsum dolor sit amet consectetur!</p>
+                  <a href="#" class="btn btn-primary specialhover">Go somewhere</a>
+                </div>
+              </div>
+        </div>
+    </div>
+    <div class="bg-4">
+
+    </div>
+    <div class="lis">
+        <div class="inner">
+            <div class="textc">
+                <h3>Learn from teachers and therapists you can relate to.</h3>
+            </div>
+            <div class="imagesim">
+                <div class="top">
+                    <div class="o">
+                        <img src="img1.webp" alt="img">
+                        <h3>Joy Ofodu</h3>
+                        <h4>Daily Shine Host</h4>
+                    </div>
+                    <div class="o">
+                        <img src="img2.webp" alt="img">
+                        <h3>Jamila Reddy</h3>
+                            <h4>Meditation Host</h4>
+                    </div>
+                    <div class="o">
+                        <img src="img3.webp" alt="img">
+                        <h3>or-El Caraballo, L.M.H.C.</h3>
+                        <h4>Therapist</h4>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="o">
+                        <img src="img4.webp" alt="img">
+                        <h3>Elisha Mudly, L.M.S.W.</h3>
+                        <h4>Mindfulness Teacher</h4>
+                    </div>
+                    <div class="o">
+                        <img src="img5.webp" alt="img">
+                        <h3>Jen Kluczkowski</h3>
+                            <h4 style="width: 170px;">Yoga & Meditation Teacher</h4>
+                    </div>
+                    <div class="o">
+                        <img src="img6.webp" alt="img">
+                        <h3>Jezz Chung</h3>
+                        <h4>DE&I Facilitator & Leader</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="smal">
+        <h3>1 in 3 reviews refer to Shine <br> as life-changing</h3>
+        <p>This is so worth it! So inclusive and specific!! The amount of support and help is amazing. Great community. I can't afford therapy and this has helped me more than any therapist. I loved it so much I bought my twin sister and bestie a membership.</p>
+        <div class="progress sp">
+            <div class="progress-bar w-50">50%</div>
+        </div>
+    </div>
+    <div class="lastbef">
+        <div class="ro">
+            <h3>We made a space <br>with our reality in mind</h3>
+        <h4>We know what it's like to feel as if you're the *only* one going through something—and how feeling supported can change everything.</h4>
+        <a href="#">Learn More</a>
+        </div>
+        <img src="lastbe.webp" alt="lats">
+
+    </div>
+    <div class="last">
+            <h2>Contact Us</h2>
+            <div class="contact">
+                <div class="linkedIn">
+                    <a href="https://www.linkedin.com/in/rohith-sai-9b64462a9/" target="_blank"><img src="linkedin.png" alt="linkedIn"></a>
+                    <h3>LinkedIn</h3>
+
+                </div>
+                <div class="insta">
+                   <a href="https://www.instagram.com/mr_cool_boi_rohi/" target="_blank"> <img src="instag.jpeg" alt="instagram"></a>
+                    <h3>Instagram</h3>
+                </div>
+                <div class="form">
+                    <label for="name" class="form-label text-light">Name :</label><br>
+                    <input type="text" class="form-control">
+                    <label for="name" class="form-label text-light">Phone No :</label><br>
+                    <input type="text" class="form-control">
+                    <label for="name" class="form-label text-light">From</label><br>
+                    <select name="area" id="area" class="form-control">
+                        <option value="Area">Select</option>
+                        <option value="AP">Andhra Pradesh</option>
+                        <option value="Ts">Telangana</option>
+                        <option value="AP">Tamil Nadu</option>
+                        <option value="Ts">Karnataka</option>
+                        <option value="AP">Kerala</option>
+                    </select>
+                    <Button class="btn btn-primary" style="margin-top: 20px;">Submit</Button>
+                </div>
+            </div>
+            <footer>copyright 2024 @Designed By Rohith Sai ! Impression Website </footer>
+    </div>
+    
+</div>
+    
+</body>
+
+</html>
