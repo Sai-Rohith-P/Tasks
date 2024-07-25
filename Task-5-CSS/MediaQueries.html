@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-4</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function func1(){
+            const v1=document.querySelector('#showing');
+            v1.style.display='flex';
+            const v2=document.querySelector('#menuu');
+            v2.style.display='none';
+            const v3=document.querySelector('#closed');
+            v3.style.display='block';
+        }
+        function func2(){
+            const v1=document.querySelector('#showing');
+            v1.style.display='none';
+            const v2=document.querySelector('#menuu');
+            v2.style.display='block';
+            const v3=document.querySelector('#closed');
+            v3.style.display='none';
+        }
+
+    </script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="top-lrft">
+            <input type="text" placeholder="  Search ">
+            <img src="search_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="search" class="search">
+        </div>
+        <div class="top-center">
+            <ul id="showing">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Travel</a></li>
+                <li><a href="#">Eat</a></li>
+                <li><a href="#">Relax</a></li>
+                <li><a href="#">Videos</a></li>
+            </ul>
+        </div>
+        <div class="top-right">
+            <img src="facebook-removebg-preview.png" alt="facebook" class="one">
+            <img src="ins-removebg-preview.png" alt="instagram" class="two">
+            <img src="printest-removebg-preview.png" alt="printest" class="three">
+            <img src="twitter-removebg-preview.png" alt="twiter" class="four">
+        </div>
+        <img onclick="func1()" src="menu_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="menu" class="menu" id="menuu">
+        <img onclick="func2()" src="close.svg" alt="close" class="closed" id="closed">
+    </div>
+    <div class="section">
+        <div class="div">
+            <p>Travel Bolg</p>
+            <h3>Going Places</h3>
+            <p class="bef">I haven’t been everywhere, but it’s on my list</p>
+            <h5 class="para-hide">I'm a paragraph. Click here to add your <br> own text and edit me. It’s easy. <br>Just
+                click “Edit Text” or double click me to <br> add your own content and make changes <br> to the font.
+            </h5>
+        </div>
+    </div>
+    <div class="three1">
+        <h5 class="para-show">I'm a paragraph. Click here to add your own text and edit me. It’s easy.Just click “Edit Text” or double click me to add your own content and make changes to the font.</h5>
+        <div class="imgs">
+            <div class="img1">
+                <img src="img1.webp" alt="img1">
+                <button>Travel</button>
+            </div>
+            <div class="img2">
+                <img src="img2.webp" alt="img2">
+                <button>Eat</button>
+            </div>
+            <div class="img3">
+                <img src="img3.webp" alt="img3">
+                <button>Relax</button>
+            </div>
+        </div>
+    </div>
+    <div class="four1">
+        <div class="nm1">
+            <h3>As featured in</h3>
+        </div>
+        <div class="gp"></div>
+        <div class="nm2">
+            <h3>travel <br> blog</h3>
+        </div>
+        <div class="nm3">
+            <h3>World <br> Travel</h3>
+        </div>
+        <div class="nm4">
+            <h3>SkeyCloud</h3>
+        </div>
+    </div>
+    <div class="five1">
+        <div class="first-style">
+            <img src="tree.webp" alt="tree">
+            <div class="name">
+                <div class="head">
+                    <img src="person-removebg-preview.png" alt="person">
+                </div>
+                <div class="head-name">
+                    <h4>Rohith</h4>
+                    <h5>25 june 2024</h5>
+                </div>
+            </div>
+            <div class="php">
+                <h2>The Girl from Ipanema</h2>
+            <p>Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading.</p>
+            </div>
+        </div>
+        <div class="hr"></div>
+        <div class="symbols">
+            <img src="symptoms_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="eye">
+            <span>0</span>
+            <img src="chat_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="msg">
+            <span>0</span>
+            <div class="divvv">
+                <span>20</span>
+            <img src="favorite_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="heart">
+            </div>
+        </div>
+    </div>
+    <div class="five2">
+        <div class="first-style">
+            <img src="fruit.webp" alt="tree">
+            <div class="name">
+                <div class="head">
+                    <img src="person-removebg-preview.png" alt="person">
+                </div>
+                <div class="head-name">
+                    <h4>Sai</h4>
+                    <h5>25 june 2024</h5>
+                </div>
+            </div>
+            <div class="php">
+                <h2>The Mexico Diary, Day 1: Oaxaca</h2>
+            <p>Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading.</p>
+            </div>
+        </div>
+        <div class="hr"></div>
+        <div class="symbols">
+            <img src="symptoms_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="eye">
+            <span>0</span>
+            <img src="chat_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="msg">
+            <span>0</span>
+            <div class="divvv">
+                <span>20</span>
+            <img src="favorite_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="heart">
+            </div>
+        </div>
+    </div>
+    <div class="five3">
+        <div class="first-style">
+            <img src="house.webp" alt="tree">
+            <div class="name">
+                <div class="head">
+                    <img src="person-removebg-preview.png" alt="person">
+                </div>
+                <div class="head-name">
+                    <h4>Coder</h4>
+                    <h5>25 june 2024</h5>
+                </div>
+            </div>
+            <div class="php">
+                <h2>Mykonos with Mr. & Mrs. Smith</h2>
+            <p>Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading....</p>
+            </div>
+        </div>
+        <div class="hr"></div>
+        <div class="symbols">
+            <img src="symptoms_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="eye">
+            <span>0</span>
+            <img src="chat_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="msg">
+            <span>0</span>
+            <div class="divvv">
+                <span>20</span>
+            <img src="favorite_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="heart">
+            </div>
+        </div>
+    </div>
+    <div class="con">
+        <img src="facebook-removebg-preview.png" alt="facebook" class="one">
+            <img src="ins-removebg-preview.png" alt="instagram" class="two">
+            <img src="printest-removebg-preview.png" alt="printest" class="three">
+            <img src="twitter-removebg-preview.png" alt="twiter" class="four">
+    </div>
+    <div class="merge">
+        <img src="background-img.webp" alt="bg" class="hi">
+        <img src="img1.webp" alt="img" class="hi">
+        <img src="img2.webp" alt="img" class="show">
+        <img src="fruit.webp" alt="friu" class="hi">
+        <img src="img3.webp" alt="img" class="hi">
+    </div>
+    <div class="last">
+        <div class="last-left">
+            <div class="details">
+                <div class="imgggg">
+                    <img src="rohithh.jpg" alt="mine">
+                </div>
+                <div class="text">
+                    <h3>About Me</h3>
+                    <p>I'm Rohith. I want to Become A Software Developer. i am very interested to learn coding.now it's my hobby,learn coding Every day. and I like web development.Now i am Learning .....</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="last-right">
+            <h2>Join My Mailing List</h2>
+            <p>Mail*</p>
+            <input type="text" placeholder="Enter your mail"><br>
+            <button>Subscribe</button>
+        </div>
+    </div>
+    <footer>Copyright @Designed By Rohith | Hospital.</footer>
+    
+</body>
+
+</html>
