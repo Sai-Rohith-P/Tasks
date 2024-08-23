@@ -1,0 +1,21 @@
+.loginform{
+    width: 43%;
+}
+.logintext{
+    font-weight: 500;
+}
+@media screen and (max-width:992px) {
+    .loginform{
+        width: 54%;
+    }
+}
+@media screen and (max-width:768px) {
+    .loginform{
+        width: 58%;
+    }
+}
+@media screen and (max-width:576px) {
+    .loginform{
+        width: 80%;
+    }
+}

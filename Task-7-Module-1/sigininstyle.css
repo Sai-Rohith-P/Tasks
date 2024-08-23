@@ -1,0 +1,18 @@
+.profile{
+    height: 36px;
+    font-size: 15px;
+    width: 70%;
+}
+@media screen and (max-width:992px) {
+    .profile{
+        width: 50%;
+    }
+}
+@media screen and (max-width:576px) {
+    .radios{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+}

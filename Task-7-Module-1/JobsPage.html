@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="Homestyle.css">
+    <link rel="stylesheet" href="jobspage.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-white bg-white">
+    <div class="container-fluid">
+      <a class="navbar-brand heading" href="#">Job<span style="color: red;">Hunt</span></a>
+        <button class="mn" id="mn" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+          <img src="Menu-Icon.svg" alt="menu" id="mn1">
+          <img src="Close-Icon.svg" alt="close-menu" id="cl">
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ulli gap-3 ms-auto mb-2 mb-lg-0" >
+          <li class="nav-item">
+            <a class="nav-link navbars text-dark" aria-current="page" href="Home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navbars text-dark" aria-current="page" href="#">Job</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navbars text-dark" aria-current="page" href="Browser.html">Browser</a>
+          </li>
+          <a href="LoginPage.html"><button  class="btn btn-light border ">Login</button></a>
+          <a href="SiginPage.html"><button class="btn text-light btn2">Sigup</button></a>
+        </ul>  
+      </div>
+    </div>
+  </nav>
+      <div class="container d-flex gap-3 mt-5">
+        <h5 class="" style="font-weight: 700;">Filter Jobs</h5>
+        <p class="ms-5">No Job Found</p>
+        <button class="ms-5 border rounded-3 text-light button">Apply</button>
+      </div>
+      <div class="container">
+        <hr style="width: 200px;">
+        <h5 class="" style="font-weight: 700;">Location</h5>
+        
+        <div class="form-check">
+            <div class="divv1">
+                <input class="form-check-input class1" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label class" for="flexRadioDefault1">
+              Delhi
+            </label>
+            </div>
+            <div class="divv1">
+                <input class="form-check-input class1" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label class" for="flexRadioDefault1">
+              Bangalore
+            </label>
+            </div>
+            <div class="divv1">
+                <input class="form-check-input class1" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label class" for="flexRadioDefault1">
+              Hyderabad
+            </label>
+            </div>
+            <div class="divv1">
+                <input class="form-check-input class1" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label class" for="flexRadioDefault1">
+              Pune
+            </label>
+            </div>
+            <div class="divv1">
+                <input class="form-check-input class1" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label class" for="flexRadioDefault1">
+              Visakhapatnam
+            </label>
+            </div>
+            <div class="divv1">
+                <input class="form-check-input class1" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label class" for="flexRadioDefault1">
+              Mumbai
+            </label>
+            </div>
+      </div>
+      <h5 class="mt-4" style="font-weight: 700;">Industry</h5>
+      <div class="form-check">
+        <div class="divv1">
+            <input class="form-check-input class1" type="radio" name="flexRadioDefault2" id="flexRadioDefault2">
+        <label class="form-check-label class" for="flexRadioDefault2">
+          Frontend Web Developer
+        </label>
+        </div>
+        <div class="divv1">
+            <input class="form-check-input class1" type="radio" name="flexRadioDefault2" id="flexRadioDefault2">
+        <label class="form-check-label class" for="flexRadioDefault2">
+          Backend Web Developer
+        </label>
+        </div>
+        <div class="divv1">
+            <input class="form-check-input class1" type="radio" name="flexRadioDefault2" id="flexRadioDefault2">
+        <label class="form-check-label class" for="flexRadioDefault2">
+          Full Stack Web Developer
+        </label>
+        </div>
+  </div>
+  <h5 class="mt-4" style="font-weight: 700;">Salary</h5>
+      <div class="form-check">
+        <div class="divv1">
+            <input class="form-check-input class1" type="radio" name="flexRadioDefault3" id="flexRadioDefault3">
+        <label class="form-check-label class" for="flexRadioDefault3">
+          0-40K
+        </label>
+        </div>
+        <div class="divv1">
+            <input class="form-check-input class1" type="radio" name="flexRadioDefault3" id="flexRadioDefault3">
+        <label class="form-check-label class" for="flexRadioDefault3">
+          40-1lakh
+        </label>
+        </div>
+        <div class="divv1">
+            <input class="form-check-input class1" type="radio" name="flexRadioDefault3" id="flexRadioDefault3">
+        <label class="form-check-label class" for="flexRadioDefault3">
+          1 to 7lakh
+        </label>
+        </div>
+  </div>
+  <div class="pb-3"></div>
+
+    
+
+
+      <script src="javascript.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
