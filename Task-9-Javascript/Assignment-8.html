@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-8 || Javascript</title>
+    <style>
+        .heading {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 30px;
+            margin-bottom: 50px;
+        }
+
+        .div1 {
+            display: flex;
+            align-items: center;
+            width: 350px;
+            justify-content: space-around;
+        }
+
+        .div1 button,
+        .div2 button {
+            height: 40px;
+            width: 80px;
+            background-color: rgb(255, 106, 0);
+            color: rgb(254, 254, 254);
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        #morning {
+            margin-left: 20px;
+        }
+
+        .div2 {
+            margin-left: 20px;
+        }
+
+        .div2 button {
+            width: 170px;
+        }
+
+        .div3,.div4 h3{
+            margin-left: 20px;
+        }
+        #iterate p{
+            font-size: 18px;
+        }
+        .st button,.div4 button{
+            width: 150px;
+            height: 40px;
+            border-radius: 10px;
+            background-color: orange;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h2 class="heading">Assignment-8 </h2>
+    <p>Question-1</p>
+    <div class="div3">
+        <h3 id="pp"></h3>
+    </div>
+    <p>Question-2</p>
+    <div class="div1">
+        
+        <h3>Please Enter Your Time :</h3>
+        <button onclick="func1()">Click</button>
+    </div>
+    <h3 id="morning"></h3>
+    <p>Question-3</p>
+    <div class="div2">
+        
+        <button onclick="add()">Adding Numbers</button>
+        <h3 id="num1">Enter First Number :</h3>
+        <h3 id="num2">Enter First Number :</h3>
+        <h3 id="sum">Sum is :</h3>
+    </div>
+
+    <div class="div4">
+        <p>Question-4</p>
+        <button onclick="num()">Numbers</button>
+        <h3 id="arrp">Positives</h3>
+        <h3 id="arrn">Negatives</h3>
+    </div>
+    <p>Question-5</p>
+    <div style="margin-left: 20px;">
+        <div id="iterate">
+        
+        </div>
+    </div>
+
+    <p>Question-6</p>
+    <div class="st" style="margin-left: 20px;">
+        <button onclick="avg()">Students Marks</button>
+        <h2 id="avg"></h2>
+    </div>
+
+
+
+
+
+    <script>
+        // question-1
+        let time = document.getElementById("morning");
+        function func1() {
+            let timee = parseInt(prompt("Enter Your Time !"));
+            if (timee >= 1 && timee <= 11) {
+                time.innerHTML = "Good Morning!! have A Nice Day";
+            } else if (timee >= 12 && timee <= 16) {
+                time.innerHTML = "Good Afternoon!! I think its a Nice Day";
+            } else if (timee >= 17 && timee <= 20) {
+                time.innerHTML = "Good Evening!! I think You Achieve Something great.";
+            } else if (timee <= 23) {
+                time.innerHTML = "Good Night!! Sweet Dreams.";
+            } else {
+                time.innerHTML = "Sorry This Is not Valid ,Try Again,Thankyou";
+            }
+        }
+
+        // question 2
+        let ip11 = document.getElementById("num1");
+        let ip12 = document.getElementById("num2");
+        let sm = document.getElementById("sum");
+        function add() {
+            let ip1 = parseInt(prompt("Enter first value :"));
+            ip11.innerHTML = `Enter First Number : ${ip1}`;
+
+            let ip2 = parseInt(prompt("Enter first value :"));
+            ip12.innerHTML = `Enter First Number : ${ip2}`;
+
+            sm.innerHTML = `Sum is : ${ip1 + ip2}`;
+        }
+
+
+
+        // question 3
+        let pp = document.getElementById("pp");
+        let p1 = parseInt(prompt("Enter Any Number to checks if it is Positive or Negative :"));
+        if (p1 > 0) {
+            pp.innerHTML = `${p1} is Positive Number.`;
+        } else {
+            pp.innerHTML = `${p1} is Negative Number.`;
+        }
+
+
+        // question 4
+        function num(){
+            let p = document.getElementById("arrp");
+        let n = document.getElementById("arrn");
+
+        let arr = [];
+        let n1 = parseInt(prompt("Enter how many numbers you want to input:"));
+
+        for (let i = 0; i < n1; i++) {
+            arr[i] = parseInt(prompt(`Enter value ${i + 1}:`));
+        }
+
+        let arp = [];
+        let arn = [];
+
+        for (let i = 0; i < n1; i++) {
+            if (arr[i] > 0) {
+                arp.push(arr[i]);
+            } else {
+                arn.push(arr[i]);
+            }
+        }
+
+        p.innerHTML = `Positives: ${arp.join(", ")}`;
+        n.innerHTML = `Negatives: ${arn.join(", ")}`;
+        }
+
+
+        // question 5
+        let iterate = document.getElementById("iterate");
+        for(let i=0;i<=15;i++){
+            let p1 = document.createElement("p");
+            if(i%2===0){
+                p1.innerHTML=`${i} is Even Number`;
+                iterate.appendChild(p1);
+            }else{
+                p1.innerHTML=`${i} is Odd Number`;
+                iterate.appendChild(p1);
+            }
+            
+        }
+
+
+        //question 6
+        let average = document.getElementById("avg");
+        function avg(){
+            let ar =[];
+            let n = parseInt(prompt("Enter Number of student marks you want :"));
+            for(let i=0;i<n;i++){
+                ar[i] = parseInt(prompt(`Enter Student ${i+1} Marks :`));
+            }
+            let sum = 0;
+            for(let i=0;i<n;i++){
+                sum+=ar[i];
+            }
+            let avg = sum/n;
+            average.innerHTML=`Average is ${avg}`;
+        }
+
+
+    </script>
+</body>
+
+</html>
