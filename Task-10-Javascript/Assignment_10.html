@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-7</title>
+</head>
+<style>
+    .containter {
+        margin: 10px;
+    }
+
+    .heading {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    #demo {
+        font-size: 20px;
+    }
+
+    .divv {
+        display: flex;
+        gap: 100px;
+        justify-content: center;
+    }
+
+    #inputt {
+        width: 400px;
+        height: 30px;
+        border: 2px solid blue;
+        border-radius: 8px;
+        outline: none;
+        padding-left: 10px;
+    }
+
+    .palindromebutton {
+        width: 70px;
+        height: 34px;
+        border-radius: 6px;
+        background-color: green;
+        border: none;
+        color: white;
+        cursor: pointer;
+    }
+
+    .palindromebutton:hover {
+        background-color: white;
+        color: black;
+        box-shadow: 2px 2px 2px black;
+    }
+
+    .div {
+        margin-left: 100px;
+    }
+
+    .clock {
+
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        width: 500px;
+    }
+
+    .clock>button {
+        width: 100px;
+        cursor: pointer;
+        height: 40px;
+        font-size: 17px;
+        border-radius: 10px;
+        border: none;
+    }
+
+    .clock>button:hover {
+        background-color: black;
+        color: white;
+    }
+
+    .clock1 {
+        display: flex;
+        gap: 90px;
+        height: 40px;
+        width: 500px;
+        /* justify-content: center; */
+        align-items: center;
+    }
+
+    .hour>h4,
+    .minute>h4,
+    .second>h4 {
+        margin-top: 20px;
+        text-align: center;
+        width: 30px;
+        height: 30px;
+        box-shadow: 2px 1px 2px black;
+        padding: 8px 4px 2px 4px;
+    }
+
+    .last {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+</style>
+
+<body>
+    <div class="containter">
+        <h2 class="heading">Assignment-8</h2>
+        <h3>Q1.Write a Javascript program to get the first n fibonacci numbers using recursion . The value 'n' you can
+            take from user(dynamically).</h3>
+        <div class="divv">
+            <div>
+                <h4>Here Without Using recursion</h4>
+                <p id="demo">let a = parseInt(prompt("enter number "));<br>
+                    let firstDigit = 0, secondDigit = 1; <br>
+                    let Temp; // for Temporary variable. <br>
+                    // first we print our default values <br>
+                    console.log(firstDigit); <br>
+                    console.log(secondDigit); <br>
+                    for(let i=0;i<=a;i++){ <br>
+                        Temp = firstDigit + secondDigit; <br>
+                        firstDigit = secondDigit ; <br>
+                        secondDigit = Temp; <br>
+                        console.log(Temp); <br>
+                        } <br>
+                </p>
+            </div>
+            <div>
+                <h4>Here With recursion Code</h4>
+                <p id="demo">function fibonacci(n) { <br>
+                    if (n <= 1) { <br>
+                        return n; <br>
+                        } <br>
+                        return fibonacci(n - 1) + fibonacci(n - 2); <br>
+                        } <br>
+                        let a=parseInt (prompt("Enter number: ")); <br>
+                        for (let i = 0; i < a; i++) { <br>
+                            console.log(fibonacci(i)); <br>
+                            } <br>
+                </p>
+            </div>
+        </div>
+
+        <h3 id="recursivenumber">Here Number You want</h3>
+        <h4 id="numbers"></h4><br>
+        <h3>Q2.Write a Javascript program to check whether a given string is palindrome or not using recursion. Can take
+            input from user using prompt.</h3>
+        <h3>Write here Anything To Check Weather it is palindrome or not ? </h3>
+        <p>A palindrome is word or phrase that reads the ways either
+            forwards or backwards</p>
+        <input type="text" id="inputt" placeholder=" Write Here......"> <button onclick="checks()"
+            class="palindromebutton">Check</button>
+        <h3>Answer is : <span id="palindromeornot"> ?</span></h3>
+
+
+        <h3>Q3.Creating a Clock using javascript setInterval() function. [ i will attach a guidance video for this today
+            after recording].</h3>
+
+        <div class="div">
+            <div class="clock">
+                <button id="strat">start</button> <button id="pause">pause</button> <button id="clear">clear</button>
+            </div> <br>
+            <div class="clock1">
+                <div class="last"><span class="hour">
+                        <h4 id="hour">0</h4>
+                    </span> <span>Hours</span></div>
+                <div class="last"><span class="minute">
+                        <h4 id="minute">0</h4>
+                    </span> <span>Minutes</span></div>
+                <div class="last"><span class="second">
+                        <h4 id="second">0</h4>
+                    </span> <span>Seconds</span></div>
+            </div>
+        </div>
+    </div>
+    <script>
+
+        let n = parseInt(prompt("How many Numbers You Want ?"));
+        document.getElementById("recursivenumber").innerHTML = `I Think ${n} Numbers You want!!`;
+
+        let arr_num = [];
+        function fibonacci_series() {
+            function fibonacci(n) {
+                if (n <= 1) {
+                    return n;
+                }
+                return fibonacci(n - 1) + fibonacci(n - 2);
+            }
+            for (let i = 0; i < n; i++) {
+                arr_num[i] = fibonacci(i);
+            }
+            let num = arr_num;
+            document.getElementById("numbers").innerHTML = `This is your Answer :  ${num}`;
+        }
+        fibonacci_series();
+
+
+        // 2nd question
+        function checks() {
+
+            let element = document.getElementById("inputt");
+            let inputv = element.value;
+
+            function ispalindrome(p) {
+                let arrayCovertion = p.split('');
+                let reverseConversition = arrayCovertion.reverse();
+                let lastJoin = reverseConversition.join('');
+
+                return p === lastJoin;
+
+            }
+
+            // shortcut way 
+            // let arrayCovertion = p.split('').reverse().join('');
+            // we directly print arrayCovertion.
+
+            // let inputt = prompt("enter Anything to chack it is palindrome or not ?");
+
+
+            if (ispalindrome(inputv)) {
+                // console.log(`${inputv} palindrome`);
+                document.getElementById("palindromeornot").innerHTML = ` ${inputv} is palindrome`;
+
+            } else {
+                // console.log(`${inputv} Not palindrome`);
+                document.getElementById("palindromeornot").innerHTML = ` Sorry this ${inputv} is Not a palindrome`;
+            }
+            element.value = "";
+        }
+
+
+        // 4th question
+        let startt = document.getElementById("strat");
+        let clear = document.getElementById("clear");
+        let pause = document.getElementById("pause");
+
+
+        let second = document.getElementById("second");
+        let minute = document.getElementById("minute");
+        let hour = document.getElementById("hour");
+        let s = 0;
+        let m = 0;
+        let h = 0;
+        let sec,min,hr;
+        startt.addEventListener("click", function () {
+             sec = setInterval(() => {
+                second.innerHTML = `${s}`;
+                s++;
+            }, 1000);
+           min = setInterval(() => {
+                s = 0;
+                m++;
+                minute.innerHTML = `${m}`;
+            }, 60000);
+
+            hr = setInterval(() => {
+                m = 0;
+                h++;
+                hour.innerHTML = `${h}`;
+            }, 3600000);
+
+            setTimeout(() => {
+                s = 0;
+                m = 0;
+                h = 0;
+            }, 86400000);
+        })
+        clear.addEventListener("click", function () {
+                clearInterval(sec);
+                clearInterval(min);
+                clearInterval(hr);
+
+                s = 0;
+                m = 0;
+                h = 0;
+
+                second.innerHTML = "0";
+                minute.innerHTML = "0";
+                hour.innerHTML = "0";
+            });
+
+            pause.addEventListener("click",function(){
+                clearInterval(sec);
+                clearInterval(min);
+                clearInterval(hr);
+            })
+    </script>
+</body>
+
+</html>
