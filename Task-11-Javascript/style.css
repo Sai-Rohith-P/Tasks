@@ -1,0 +1,160 @@
+body{
+    background-color: yellow;
+}
+.boxing{
+    position: relative;
+    width: 700px;
+    height: 600px;
+  background-color: white;
+    margin-top: 4%;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.personsnames{
+    position: relative;
+    width: 100%;
+    text-align: end;
+    padding: 8px 20px;
+}
+.totalcount{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.personsnames p{
+    font-size: 20px;
+}
+#usercount,#compcount,#totalcount,#tiecount{
+    font-weight: 600;
+}
+.images{
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+.rock{
+   background-color: yellow;
+    width:130px;
+    height: 130px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.rock img{
+    padding: 15px;
+    width:130px;
+    height: 130px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.rock img:hover,.rock:hover{
+    transform: scale(0.9);
+}
+.rock:hover{
+    box-shadow: 6px 6px 20px rgb(69, 69, 69);
+}
+.choosingtext{
+    width: 100%;
+    height: 100px;
+}
+.choosingtext p{
+    font-size: 20px;
+}
+.choseitem{
+    font-weight: 600;
+}
+.resultbtn{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(255, 200, 200);
+    border: none;
+    font-size: 22px;
+    color: red;
+    font-weight: 600;
+}
+.resultbtn:hover{
+    background-color: rgb(254, 146, 146);
+}
+.won{
+    position: absolute;
+    top: 30%;
+    left: 26%;
+    width: 340px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 3px 3px 27px grey;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.additonal{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.won h3{
+    height: max-content;
+    font-size: 34px;
+}
+.won img{
+    width: 45px;
+    height: 45px;
+}
+.com{
+    opacity: 0;
+    z-index: -1;
+    /* display: none; */
+}
+@media screen and (max-width:768px) {
+    .boxing{
+        margin-left: -50px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .boxing{
+        width: 500px;
+        height: 600px;
+        margin-top: 24%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .won{
+        position: absolute;
+        top: 30%;
+        left: 16%;
+    }
+}
+
+@media screen and (max-width:467px) {
+    .boxing{
+        width: 460px;
+        height: 600px;
+        margin-top: 38%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .rock{
+        background-color: yellow;
+         width:100px;
+         height: 100px;
+         border-radius: 50%;
+         cursor: pointer;
+     }
+     .rock img{
+         padding: 15px;
+         width:100px;
+         height: 100px;
+         border-radius: 50%;
+         cursor: pointer;
+     }
+     .won{
+        position: absolute;
+        top: 30%;
+        left: 10%;
+    }
+}
