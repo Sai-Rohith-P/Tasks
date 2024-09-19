@@ -109,6 +109,23 @@ body{
     z-index: -1;
     /* display: none; */
 }
+.buttons{
+    width: 160px;
+    height: 44px;
+    border: none;
+    background-color: rgb(255, 255, 61);
+    color: rgb(0, 0, 0);
+    font-size: 19px;
+    font-weight: 600;
+    border-radius: 10px;
+    outline: none;
+}
+.buttons a{
+    color: rgb(0, 0, 0);
+    font-size: 19px;
+    font-weight: 600;
+    text-decoration: none;
+}
 @media screen and (max-width:768px) {
     .boxing{
         margin-left: -50px;
