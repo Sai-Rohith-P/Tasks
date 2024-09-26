@@ -1,0 +1,124 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.bg-img{
+    width: 100%;
+    /* height: 700px; */
+    height: 100vh;
+    background-image: url("./bgg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbarr{
+    background-color: rgb(18, 18, 18,0.8);
+    border-radius: 50px;
+}
+.logoname{
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+.sapnlogoname{
+    color: yellow;
+    font-size: 23px;
+}
+.logoname:hover{
+    color: white;
+}
+.searchbar{
+    height: 35px;
+    border-radius: 50px;
+    width: 300px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    background-color: rgba(222, 222, 222, 0.2);
+    color: white;
+}
+.butn{
+    width: max-content;
+    height: min-content;
+    padding: 5px 20px;
+    border: none;
+    background-color: rgb(243, 177, 37);
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+.heading-details{
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.heading{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 50px;
+}
+.divs{
+    width: 90%;
+    margin-left: 100px;
+    margin-top: 130px;
+}
+.ppara{
+    color: white;
+    font-size: 25px;
+}
+.watchfree{
+    width: 150px;
+    height: 40px;
+    background-color:rgb(243, 177, 37);
+    border: none;
+    border-radius: 50px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 1s;
+}
+.watchfree:hover{
+    background-color: black;
+    color: white;
+}
+#usernmaesign{
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+@media screen and (max-width:992px) {
+    .divss{
+        justify-content: center;
+    }
+    .heading-details{
+        width: 90%;
+    }
+    #forms,#forms1,#forms2{
+        display: none;
+    }
+}
+@media screen and (max-width:768px) {
+    .divs{
+        margin-left: 60px;
+    }
+}
+@media screen and (max-width:576px) {
+    .divs{
+        margin-left: 30px;
+    }
+    .ppara{
+        font-size: 22px;
+    }
+    .heading{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:470px) {
+    .divs{
+        margin-left: 0px;
+    }
+    .ppara{
+        font-size: 20px;
+    }
+    .heading{
+        font-size: 35px;
+    }
+}
