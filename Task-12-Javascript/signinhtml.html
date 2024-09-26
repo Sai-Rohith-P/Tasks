@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./signin.css">
+</head>
+
+<body>
+    <div class="bg-img">
+        <div class="navbars p-1">
+            <nav class="navbar navbar-expand-lg navbarr navbar-dark m-3 ">
+                <div class="container-fluid">
+                    <a class="navbar-brand ms-4 logoname" href="#">Movie<span class="sapnlogoname">Craze</span></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <form class="d-flex" id="forms">
+                            <input class="me-2 searchbar" id="forms1" type="search" placeholder="Search" aria-label="Search">
+                            <button class="butn" id="forms2" type="submit">Search</button>
+                        </form>
+                        <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0 gap-4">
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="./index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./Trendingpage.html">Trending Movies</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">My Favorites</a>
+                            </li>
+                            <!-- <li class="nav-item">
+                                <a class="nav-link" href="#">Watchlist</a>
+                            </li> -->
+                            <li class="nav-item">
+                                <a class="nav-link active" style="font-weight: 600;" href="#">Signin</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="container contain">
+            <div class="forms d-flex flex-column ">
+                <h3 class="text-light text-center signinheading">Signin</h3>
+                <div class="divforms ms-auto me-auto">
+                    <form action="../movieswebsite.html" id="form" method="GET">                        <div class="mb-1 d-flex flex-column mt-3">
+                            <label for="email" class="form-label text-light">Email Address :</label>
+                            <input type="email" class=" inputs text-light" id="email" name="email"
+                                placeholder="Email@example.com">
+                                <p id="emailcheck" class="hiddentext">Email should Enter Properly.</p>
+                        </div>
+                        <div class="mb-2 d-flex flex-column mt-2">
+                            <label for="name" class="form-label text-light">Full Name :</label>
+                            <input type="text" class=" inputs text-light" id="name" name="name"
+                                placeholder="Full Name...">
+                                <p id="namecheck" class="hiddentext">Enter Your Name Please...</p>
+                        </div>
+                        <div class="mb-1 d-flex flex-column mt-1">
+                            <label for="password" class="form-label text-light">Password :</label>
+                            <input type="password" class="inputs text-light" id="password" name="password"
+                                placeholder="Password">
+                                <p id="passwordcheck" class="hiddentext">Password Should Enter</p>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <span class="form-check-label text-light" for="flexCheckDefault">
+                             Remember Me
+                            </span>
+                        </div>
+                          <button type="submit"  class="signinin mt-4">Signin</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<script src="./signinjs.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

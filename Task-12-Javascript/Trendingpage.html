@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./trendingstyle.css">
+</head>
+
+<body>
+    <div class="bg-imgs">
+        <div class="navbars p-1">
+            <nav class="navbar navbar-expand-lg navbarr navbar-dark m-3 ">
+                <div class="container-fluid">
+                    <a class="navbar-brand ms-4 logoname" href="#">Movie<span class="sapnlogoname">Craze</span></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <form class="d-flex" id="forms">
+                            <input class="me-2 searchbar" id="forms1" type="search" placeholder="Search" aria-label="Search">
+                            <button class="butn" id="forms2" type="submit">Search</button>
+                        </form>
+                        <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0 gap-4">
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="./index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="./Trendingpage.html">Trending Movies</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">My Favorites</a>
+                            </li>
+                            <!-- <li class="nav-item">
+                                <a class="nav-link" href="#">Watchlist</a>
+                            </li> -->
+                            <li class="nav-item">
+                                <a class="nav-link" id="signinn" href="./signinhtml.html">Signin</a>
+                                <p id="usernmaesign" class="mt-2"></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="d-flex divss">
+            <div class="heading-details d-flex flex-column">
+                <div class="divs  d-flex flex-column gap-3">
+                    <h1 class="heading">Trending Movies ,<br> TV Shows.</h1>
+                    <p class="ppara">Ever wonder what makes a comedy great? We put together a collection of the best comedies we could find so you can watch and learn from the best in the biz.</p>
+                    <button class="watchfree">Check Here</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class=" movies ">
+        <div class="container pt-5">
+            <div class="movielists d-flex justify-content-around" id="movielists">
+
+            </div>
+        </div>
+        <footer>
+            <div class="speciall">
+                <div class="firstl">
+                    <p>Questions? Call <a href="#">6302255030</a></p>
+                    <p><a href="#">FAQ</a></p>
+                    <p><a href="#">Investor Relations</a></p>
+                    <p><a href="#">Privacy</a></p>
+                    <p><a href="#">Speed Test</a></p>
+                </div>
+                <div class="secondl">
+                    <p><a href="#">About Us</a></p>
+                    <p><a href="#">Contact Information</a></p>
+                    <p><a href="#"> Quick Links</a></p>
+                    <p><a href="#">Follow Us</a></p>
+                </div>
+                <div class="thirdl">
+                    <p><a href="#"> Subscribe to Newsletter</a></p>
+                    <p><a href="#">Privacy Policy</a></p>
+                    <p><a href="#">Terms of Service</a></p>
+                    <p><a href="#">Upcoming Features</a></p>
+                </div>
+                <div class="fourthl">
+                    <p><a href="#">Rohith</a></p>
+                    <p><a href="#">Media Center</a></p>
+                    <p><a href="#">Terms of us</a></p>
+                    <p><a href="#">Contact Us</a></p>
+                </div>
+            </div>
+            <p>Copyright @Designed By Rohith | Movies Website.</p> 
+        </footer>
+    </div>
+    
+
+    <script>
+        let uname = localStorage.getItem('usernm');
+        let signinname1 = document.getElementById("signinn");
+        let s1 = document.getElementById("usernmaesign");
+        
+        if(uname === null){
+            signinname1.style.display = "block"; 
+        }
+        else if(uname !== "null"){
+            signinname1.style.display = "none";
+            s1.innerHTML = uname;
+            localStorage.setItem('nmas',s1.innerHTML); 
+            // console.log(s1.innerHTML);
+            
+        }
+    
+
+        document.addEventListener("DOMContentLoaded",function(){
+            setTimeout(() => {
+            localStorage.clear()
+        }, 60000);
+        })
+    </script>
+    <script src="./trendingmoviesjs.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
