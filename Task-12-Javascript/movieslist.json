@@ -1,120 +1,127 @@
 [
     {
-        "moviename":"Prince",
-        "imgpath":"https://1847884116.rsc.cdn77.org/telugu/gallery/movies/prince2022/poster.jpg",
-        "year":2022
+        "moviename": "Prince",
+        "imgpath": "https://upload.wikimedia.org/wikipedia/en/e/ef/Prince_2022_poster.jpg",
+        "year": 2022
     },
     {
-        "moviename":"Liger",
-        "imgpath":"https://1847884116.rsc.cdn77.org/telugu/gallery/movies/liger2021/poster.jpg",
-        "year":2023
+        "moviename": "Liger",
+        "imgpath": "https://popcornreviewss.com/wp-content/uploads/2022/08/Liger-2022-Action-Romance-Hindi-Movie-Review.jpg",
+        "year": 2023
     },
     {
-        "moviename":"Gaalodu",
-        "imgpath":"https://1847884116.rsc.cdn77.org/telugu/gallery/movies/gaalodu2021/poster.jpg",
-        "year":2023
+        "moviename": "Gaalodu",
+        "imgpath": "https://m.media-amazon.com/images/S/pv-target-images/8c9125e36e93cd078944df12e54ca85f777ed9e99fa0ea227e13951d36fe879e.jpg",
+        "year": 2023
     },
     {
-        "moviename":"Dhamaka",
-        "imgpath":"https://1847884116.rsc.cdn77.org/telugu/gallery/movies/dhamaka22/poster.jpg",
-        "year":2021
+        "moviename": "Dhamaka",
+        "imgpath": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/dhamaka-telugu-et00316319-1671193377.jpg",
+        "year": 2021
     },
     {
-        "moviename":"Virupaksha",
-        "imgpath":"https://1847884116.rsc.cdn77.org/telugu/gallery/movies/virupaksha22/poster.jpg",
-        "year":2020
+        "moviename": "Virupaksha",
+        "imgpath": "https://m.media-amazon.com/images/M/MV5BZjZmNDVhNTUtMzE0Zi00ZWZjLTllZjAtY2Q3MGQ1NDU0ZDhiXkEyXkFqcGc@._V1_.jpg",
+        "year": 2020
     },
     {
-        "moviename":"Pushpa 2",
-        "imgpath":"https://1847884116.rsc.cdn77.org/telugu/gallery/movies/pushpa2/poster01.jpg",
-        "year":2024
-    },{
-        "moviename":"Jailer",
-        "imgpath":"https://1847884116.rsc.cdn77.org/telugu/gallery/movies/jailer22/poster.jpg",
-        "year":2023
+        "moviename": "Pushpa 2",
+        "imgpath": "https://m.media-amazon.com/images/M/MV5BNWU1ZWFhNGQtZDhlZC00ZWFlLTlmNmEtN2VmYmZiN2Y5ZmQ2XkEyXkFqcGc@._V1_.jpg",
+        "year": 2024
     },
     {
-        "moviename":"Rangabali",
-        "imgpath":"https://1847884116.rsc.cdn77.org/telugu/gallery/movies/rangabali/rangaposter01.jpg",
-        "year":2022
-   },
-   {
-    "moviename":"F3",
-    "imgpath":"https://1847884116.rsc.cdn77.org/telugu/gallery/movies/f3_2021/poster.jpg",
-    "year":2022
-},
-{
-    "moviename":"RRR",
-    "imgpath":"https://1847884116.rsc.cdn77.org/telugu/gallery/movies/rrr2020/poster_rr01.jpg",
-    "year":2023
-},{
-    "moviename":"Krishna Vrinda Vihari",
-    "imgpath":"https://1847884116.rsc.cdn77.org/telugu/gallery/movies/krishnavrindavihari2022/poster.jpg",
-    "year":2022
-},{
-    "moviename":"Acharya",
-    "imgpath":"https://1847884116.rsc.cdn77.org/telugu/gallery/movies/Acharya2020/poster.jpg",
-    "year":2023
-},
-{
-    "moviename":"Sammathame",
-    "imgpath":"https://1847884116.rsc.cdn77.org/telugu/gallery/movies/sammathame2021/sammathameposter.jpg",
-    "year":2023
-},
-{
-    "moviename":"Bichagadu 2",
-    "imgpath":"https://1847884116.rsc.cdn77.org/telugu/gallery/movies/bichagadu2/poster.jpg",
-    "year":2021
-},{
-    "moviename":"Bhola Shanker",
-    "imgpath":"https://1847884116.rsc.cdn77.org/telugu/gallery/movies/bholashankar2021/poster02.jpg",
-    "year":2023
-},
-{
-    "moviename":"Swathimuthyam",
-    "imgpath":"https://1847884116.rsc.cdn77.org/telugu/gallery/movies/swathimuthyam2022/poster.jpg",
-    "year":2022
-},{
-    "moviename":"ThankYou",
-    "imgpath":"https://1847884116.rsc.cdn77.org/telugu/gallery/movies/thankyou2022/poster.jpg",
-    "year":2021
-},
-{
-    "moviename":"RamaBhanam",
-    "imgpath":"https://1847884116.rsc.cdn77.org/telugu/gallery/movies/ramabanam/poster01.jpg",
-    "year":2023
-},
-{
-    "moviename":"Prince",
-    "imgpath":"https://1847884116.rsc.cdn77.org/telugu/gallery/movies/prince2022/poster.jpg",
-    "year":2022
-},
-{
-    "moviename":"Liger",
-    "imgpath":"https://1847884116.rsc.cdn77.org/telugu/gallery/movies/liger2021/poster.jpg",
-    "year":2023
-},{
-    "moviename":"Saripodha Sanivarm",
-    "imgpath":"https://www.5movierulz.skin/uploads/Saripodhaa-Sanivaaram-Telugu.jpg",
-    "year":2023
-},
-{
-    "moviename":"Kill",
-    "imgpath":"https://www.5movierulz.skin/uploads/Kill-Telugu.jpg",
-    "year":2023
-},
-{
-    "moviename":"Vaazha",
-    "imgpath":"https://www.5movierulz.skin/uploads/Vaazha-Biopic-of-a-Billion-Boys-Malayalam.jpg",
-    "year":2023
-},{
-    "moviename":"Thiragabadara Saami",
-    "imgpath":"https://www.5movierulz.skin/uploads/Saripodhaa-Sanivaaram-Telugu.jpg",
-    "year":2023
-},
-{
-    "moviename":"Thangalaan",
-    "imgpath":"https://www.5movierulz.skin/uploads/Thangalaan-Telugu.jpg",
-    "year":2023
-}
+        "moviename": "Jailer",
+        "imgpath": "https://upload.wikimedia.org/wikipedia/en/c/cb/Jailer_2023_Tamil_film_poster.jpg",
+        "year": 2023
+    },
+    {
+        "moviename": "Rangabali",
+        "imgpath": "https://upload.wikimedia.org/wikipedia/en/thumb/7/76/Rangabali_%28film%29.jpg/220px-Rangabali_%28film%29.jpg",
+        "year": 2022
+    },
+    {
+        "moviename": "F3",
+        "imgpath": "https://m.media-amazon.com/images/M/MV5BNzRhZGNhZmUtY2UzNC00YzA2LThlMzktNjQ0NmYwMTc3ZjY5XkEyXkFqcGc@._V1_.jpg",
+        "year": 2022
+    },
+    {
+        "moviename": "RRR",
+        "imgpath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSadaAogLTVRXFwwHfvLWg07Ih5wHZC_6Q-Dw&s",
+        "year": 2023
+    },
+    {
+        "moviename": "Krishna Vrinda Vihari",
+        "imgpath": "https://m.media-amazon.com/images/M/MV5BNjJjZGVkMTktNzYzYy00ZmVmLWE0YzAtN2Y0NmU3MjkwYTE1XkEyXkFqcGc@._V1_.jpg",
+        "year": 2022
+    },
+    {
+        "moviename": "Acharya",
+        "imgpath": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Acharya_Telugu.jpg/220px-Acharya_Telugu.jpg",
+        "year": 2023
+    },
+    {
+        "moviename": "Sammathame",
+        "imgpath": "https://m.media-amazon.com/images/M/MV5BNGJkMTkxMWQtZTIyNS00NTI0LTlmYTMtODQ5Mjc3NjFiODMwXkEyXkFqcGc@._V1_.jpg",
+        "year": 2023
+    },
+    {
+        "moviename": "Bichagadu 2",
+        "imgpath": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/bichagadu-2-et00353721-1684224337.jpg",
+        "year": 2021
+    },
+    {
+        "moviename": "Bhola Shanker",
+        "imgpath": "https://upload.wikimedia.org/wikipedia/en/9/96/Bhola_Shankar.jpg",
+        "year": 2023
+    },
+    {
+        "moviename": "Swathimuthyam",
+        "imgpath": "https://upload.wikimedia.org/wikipedia/en/d/d3/Swathi_Muthyam_2022_film_poster.jpg",
+        "year": 2022
+    },
+    {
+        "moviename": "ThankYou",
+        "imgpath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOrFaHczI0pSEcGD_HUTU7ksthcHqvtDZKSg&s",
+        "year": 2021
+    },
+    {
+        "moviename": "RamaBhanam",
+        "imgpath": "https://upload.wikimedia.org/wikipedia/en/7/79/Rama_Banam.jpg",
+        "year": 2023
+    },
+    {
+        "moviename": "Prince",
+        "imgpath": "https://upload.wikimedia.org/wikipedia/en/e/ef/Prince_2022_poster.jpg",
+        "year": 2022
+    },
+    {
+        "moviename": "Liger",
+        "imgpath": "https://popcornreviewss.com/wp-content/uploads/2022/08/Liger-2022-Action-Romance-Hindi-Movie-Review.jpg",
+        "year": 2023
+    },
+    {
+        "moviename": "Saripodha Sanivarm",
+        "imgpath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStymsBwlcVvEmDdZecG4HtMvQNkMU4O90vWQ&s",
+        "year": 2023
+    },
+    {
+        "moviename": "Kill",
+        "imgpath": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/Kill_poster.jpeg/220px-Kill_poster.jpeg",
+        "year": 2023
+    },
+    {
+        "moviename": "Vaazha",
+        "imgpath": "https://m.media-amazon.com/images/M/MV5BZTVjOGE5MGMtZmI3Yy00YzZlLWFhNGItYmU5MDRkYjA1NTlhXkEyXkFqcGc@._V1_.jpg",
+        "year": 2023
+    },
+    {
+        "moviename": "Thiragabadara Saami",
+        "imgpath": "https://blr1.digitaloceanspaces.com/assets.telugu/wp-content/uploads/2024/08/Thiragabadara-Saami-Movie-Review-Rating-5.jpg",
+        "year": 2023
+    },
+    {
+        "moviename": "Thangalaan",
+        "imgpath": "https://upload.wikimedia.org/wikipedia/en/thumb/7/70/Thangalaan_poster.jpg/220px-Thangalaan_poster.jpg",
+        "year": 2023
+    }
 ]
